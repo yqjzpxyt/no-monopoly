@@ -1,0 +1,22 @@
+@import './variables';
+@import './mixin';
+
+
+
+@import './bootstrap/base';
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+@import './base';
+@import './components/width';
+@import './components/height';
+
+
+
+
+/* CARGA RESTO */
+@import './layout/header';
+
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';

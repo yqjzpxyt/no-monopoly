@@ -1,0 +1,9 @@
+.form-login{
+    input, select{
+        border: .1rem solid $secondary;
+        
+        &:focus, &:active{
+            outline: .1rem solid $secondary;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+#header{
+    padding: 3rem 0;
+    background-color: black;
+    height: 15rem;
+    @include flexposition(row,space-around,center);
+    div{
+        width: 15rem;
+        overflow-y: hidden;
+        height: 15rem;
+        @include response(lg){
+            display: none
+        }
+    }
+    nav ul{
+        @include reset-list;
+        @include flexposition(row,baseline,center);
+        gap: 3rem;
+    }
+    a{
+        text-decoration: none;
+    }
+}

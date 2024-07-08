@@ -1,0 +1,6 @@
+.part-form{
+    display: flex;
+    &:not(.show) {
+        display: none;
+    }
+}

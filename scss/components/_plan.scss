@@ -1,0 +1,21 @@
+.select_plan{
+    @include flexposition(column,baseline,baseline);
+    font-size: 2rem;
+    cursor: pointer;
+    border: .1rem solid $primary;
+    padding: 2rem 4rem;
+    &:hover{
+        background-color: $bg-panel;
+    }
+}
+#factura{
+    .line{
+        height: 1px;
+        width: 100%;
+        background-color: white;
+
+    }
+}
+.iframe{
+    height: 80vh;
+}

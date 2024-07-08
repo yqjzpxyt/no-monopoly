@@ -1,0 +1,23 @@
+html[data-sidenav-size="condensed"]:not([data-layout="topnav"]) .wrapper .leftside-menu .logo{
+    background-color: transparent;
+}
+.leftside-menu{
+    background-color: $bg-panel;
+    #leftside-menu-container{
+        li{
+            color: $primary;
+        }
+        p{
+            color: $primary;
+            &:hover, &:focus{
+                color: darken($primary, 10%);
+            }
+        }
+        a{
+            color: $primary;
+            &:hover, &:focus{
+                color: darken($primary, 10%);
+            }
+        }
+    }
+}

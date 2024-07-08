@@ -1,0 +1,14 @@
+{
+  "name": "monopoly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-css": "sass --watch ./scss/styles.scss ./css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
